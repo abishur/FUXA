@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y dos2unix
 WORKDIR /usr/src/app
 
 # Clone FUXA repository
-RUN git clone https://github.com/abishur/FUXA-raspi.git
+RUN git clone https://github.com/abishur/FUXA.git
 
 # Install build dependencies for node-odbc
 RUN apt-get update && apt-get install -y build-essential unixodbc unixodbc-dev
